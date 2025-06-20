@@ -1,7 +1,7 @@
-Repositorio de estudos do Bootcamp Santander Frontend
+##Repositorio de estudos do Bootcamp Santander Frontend
 
-Utilizarei 
+#Utilizarei 
 
-HTML
-CSS
-JS
+#HTML
+#CSS
+#JS
