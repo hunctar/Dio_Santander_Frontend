@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form name="signup" onsubmit="('Enviado com Sucesso!');" target="_self" autocomplete="on" method="post" action="index.html">
+        <label>Nome:    </label><input type="text" name="name" /><br>
+        <label>Idade:   </label><input type="number" min="0" max="120" name="age" /><br>
+        <label>Senha:   </label><input type="password" name="password" /><br>
+        <label>Range:   </label><input type="range" min="0" max="120" /><br>
+        <label>Color:   </label><input type="color" /><br>
+        <label>E-mail:  </label><input type="email" /><br>
+        <label>URL:     </label><input type="url" /><br>
+        <label>Date:    </label><input type="date" /><br>
+        <label>Week:    </label><input type="week" /><br>
+        <label>Month:   </label><input type="month" /><br>
+        <label>Checkbox:</label><input type="checkbox" />
+        <label>Radio:   </label><input type="radio" />
+        <label>Hidden:  </label><input type="hidden" />
+        <label>File:    </label><input type="file" multiple />
+        <label>Search:  </label><input type="search" />
+
+        <button type="submit">Enviar e Voltar</button>
+
+        <p>
+            É recomendado entrar no site do <a href="https://www.w3schools.com">W3 Schools</a> e procurar a tag "input"
+        </p>
+    </form>
+
+     <a href="index.html" target="_self" title="Voltar para o início">Voltar para o início</a> - Retorna à página inicial do site.
+
+</body>
+</html>
