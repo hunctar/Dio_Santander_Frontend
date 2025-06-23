@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Select</title>
+</head>
+<body>
+    <form>
+        <label> Nome:  </label><input type="text" name="name" required /><br>
+        <label> Cargo: </label>
+        <select name="cargo" required>
+            <option value="desenvolvedor">Desenvolvedor</option>
+            <option value="analista">Analista</option>
+            <option value="gerente">Gerente</option>
+            <option value="estagiario">Estagiário</option>
+        </select><br>
+        <label> Assunto:  </label><input type="text" name="subject" required /><br>
+
+        <label> Mensagem: </label><textarea name="message" rows="4" cols="50" required></textarea><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <a href="index.html" target="_self" title="Voltar para o início">Voltar para o início</a>
+    </form>
+</body>
+</html>
