@@ -8,5 +8,31 @@ label{
     padding-right: 5px;
 }
 body{
-    background-color: #f0f0f0;
+    background-color: #c2830e;
+    background-image: url('Forza7_NissanGTR.jpeg')
+}
+
+table{
+    border: solid 1px black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tfoot td{
+    background-color: gray;
+    color: black;
+}
+
+
+table tr:nth-child(even){
+    background-color: #d9e712;
+}
+table tr:hover{
+    background-color: #e73d3d;
 }
