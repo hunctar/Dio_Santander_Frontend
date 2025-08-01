@@ -35,3 +35,7 @@
 .sidebar-menu a:hover {
   background-color: #ccc; /* Cor de fundo ao passar o mouse */
 }
+
+.conteudo_principal{
+    margin-left: 250px;
+}
